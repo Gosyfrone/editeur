@@ -20,6 +20,7 @@ public class CommandeFactory {
         switch (name) {
             case "ajouter" : return new CommandeAjouter(document, parameters);
             default: return null;
+            case "remplacer" : return new CommandeRemplacer(document, parameters);
         }
     }
 
