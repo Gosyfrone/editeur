@@ -41,5 +41,5 @@ public class Document {
         remplacer(start,end,"");
     }
 
-    public void clear(){texte = "t";}
+    public void clear(){texte = "";}
 }
